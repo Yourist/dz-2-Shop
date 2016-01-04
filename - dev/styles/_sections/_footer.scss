@@ -1,5 +1,5 @@
 .footer {
-    background: url("/img/bg/footer_lodyas.png") center center;
+    background: url("img/bg/footer_lodyas.png") center center;
     position: relative;
 }
 
@@ -43,7 +43,7 @@ $dark-socials-map: sprite-map("icons/socials-dark/*.png", $spacing: 70px);
     socials__item {
         margin-left: 22px;
     }
-	
+
     $items: fb, vk, tw;
 
     @each $item in $items {
@@ -55,7 +55,7 @@ $dark-socials-map: sprite-map("icons/socials-dark/*.png", $spacing: 70px);
                     @include absolute-center;
 
                 }
-				
+
 				&:hover {
 					&:after {
 						$icon-name: $item + "-hover";
