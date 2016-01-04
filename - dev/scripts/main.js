@@ -150,7 +150,7 @@ var slideshow = (function() {
 	
 	return {
 		init: function(){
-			$('.products__slideshow-link').on('click', function() {
+			$('.products__slideshow-link').on('click', function(e) {
 				e.preventDefault();
 				
 				var 
